@@ -52,19 +52,6 @@ window.addEventListener('click', (e) => {
     modal.style.display = 'none';
   }
 });
-document.querySelector('img[alt="pumpFun"]').addEventListener('click', () => {
-  modal.style.display = 'flex';
-});
-
-closeBtn.addEventListener('click', () => {
-  modal.style.display = 'none';
-});
-
-window.addEventListener('click', (e) => {
-  if (e.target === modal) {
-    modal.style.display = 'none';
-  }
-});
 
 //© $NGELAG
 //Website Development: Abu Kentucky & Nextarz
